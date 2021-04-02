@@ -40,45 +40,36 @@ body {
 
 .button-sedans {
   background-color: transparent;
+  color: #f2f2f2;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   padding: 10px 25px;
   margin: 40px 50px 60px 50px; }
   .button-sedans:hover {
-    background-color: #f2f2f2; }
-    .button-sedans:hover a {
-      color: #e38826; }
-  .button-sedans a {
-    color: #f2f2f2;
-    text-decoration: none; }
+    background-color: #f2f2f2;
+    color: #e38826; }
 
 .button-suvs {
   background-color: transparent;
+  color: #f2f2f2;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   padding: 10px 25px;
   margin: 40px 50px 60px 50px; }
   .button-suvs:hover {
-    background-color: #f2f2f2; }
-    .button-suvs:hover a {
-      color: #006970; }
-  .button-suvs a {
-    color: #f2f2f2;
-    text-decoration: none; }
+    background-color: #f2f2f2;
+    color: #006970; }
 
 .button-luxury {
   background-color: transparent;
+  color: #f2f2f2;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   padding: 10px 25px;
   margin: 40px 50px 60px 50px; }
   .button-luxury:hover {
-    background-color: #f2f2f2; }
-    .button-luxury:hover a {
-      color: #004241; }
-  .button-luxury a {
-    color: #f2f2f2;
-    text-decoration: none; }
+    background-color: #f2f2f2;
+    color: #004241; }
 
 .attribution {
   font-size: 11px;
@@ -86,7 +77,7 @@ body {
   .attribution a {
     color: #3e52a3; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .container {
     margin: 10rem 0;
     height: 100%; }

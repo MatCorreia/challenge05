@@ -151,36 +151,4 @@ $veryLightGray: hsl(0, 0%, 95%); //Background, Deadings, Buttons
         border-radius: 0 0 10px 10px;
     }
     
-    /*
-    body {
-        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
-        background-repeat: no-repeat, no-repeat;
-        background-position: top, bottom;
-    }
-
- 
-
-    .bg-right-top {
-        margin: 15px 0;
-        padding: 5px;
-        background-color: $lightGrayishMagenta;
-        border-radius: 10px;
-        & h6 {
-            color: $darkMagenta;
-            font-size: 1rem;
-            font-weight: 700;
-        }
-    }
-
-    .star {
-        float: none;
-        margin-bottom: 5px;
-    }
-
-    .profile {
-        margin-top: 15px;
-        text-align: left;
-    }
-    */
-
 }

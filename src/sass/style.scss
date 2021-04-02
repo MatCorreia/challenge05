@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+//****** GLOBAL *******//
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    font-size: 15px;   
+}
+
+//***** COLORS ******//
+
+//Primary
+
+$brightOrange: hsl(31, 77%, 52%);
+$darkCyan: hsl(184, 100%, 22%);
+$veryDarkCyan: hsl(179, 100%, 13%);
+
+//Neutral
+
+$transparentWhite: hsla(0, 0%, 100%, 0.75); //Paragraphs
+$veryLightGray: hsl(0, 0%, 95%); //Background, Deadings, Buttons
+
+//******* LAYOUT *******//
+.container {
+    max-width: 1440px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-hero {
+    max-width: 960px;
+    img {
+        padding: 40px 50px;
+    }
+    & h1 {
+        color: $veryLightGray;
+        font-size: 2rem;
+        font-family: 'Big Shoulders Display', sans-serif;
+        padding: 0 50px;
+    }
+    & p {
+        color: $veryLightGray;
+        padding: 20px 50px;
+        opacity: 0.6;
+    }
+}
+
+.hero-sedans {
+    background-color: $brightOrange;
+    border-radius: 10px 0 0 10px;
+}
+
+.hero-suvs {
+    background-color: $darkCyan;
+}
+
+.hero-luxury {
+    background-color: $veryDarkCyan;
+    border-radius: 0 10px 10px 0;
+}
+
+.button-sedans {
+    background-color: transparent;
+    border: 2px solid $veryLightGray;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 40px 50px 60px 50px;
+    &:hover {
+        background-color: $veryLightGray;
+        & a {
+            color: $brightOrange;
+        }
+    }
+    & a {
+        color: $veryLightGray;
+        text-decoration: none;
+    }
+}
+
+.button-suvs {
+    background-color: transparent;
+    border: 2px solid $veryLightGray;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 40px 50px 60px 50px;
+    &:hover {
+        background-color: $veryLightGray;
+        & a {
+            color: $darkCyan;
+        }
+    }
+    & a {
+        color: $veryLightGray;
+        text-decoration: none;
+    }
+}
+
+.button-luxury {
+    background-color: transparent;
+    border: 2px solid $veryLightGray;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 40px 50px 60px 50px;
+    &:hover {
+        background-color: $veryLightGray;
+        & a {
+            color: $veryDarkCyan;
+        }
+    }
+    & a {
+        color: $veryLightGray;
+        text-decoration: none;
+    }
+}
+
+//******* FOOTER *******//
+.attribution { 
+    font-size: 11px; text-align: center;
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media(max-width:1200px) {
+
+    .container {
+        margin: 10rem 0;
+        height: 100%;
+    }
+
+    .main-hero {
+        padding: 0 20px;
+    }
+
+    .hero-sedans {
+        background-color: $brightOrange;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .hero-suvs {
+        background-color: $darkCyan;
+    }
+    
+    .hero-luxury {
+        background-color: $veryDarkCyan;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    /*
+    body {
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top, bottom;
+    }
+
+ 
+
+    .bg-right-top {
+        margin: 15px 0;
+        padding: 5px;
+        background-color: $lightGrayishMagenta;
+        border-radius: 10px;
+        & h6 {
+            color: $darkMagenta;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+
+    .star {
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .profile {
+        margin-top: 15px;
+        text-align: left;
+    }
+    */
+
+}
